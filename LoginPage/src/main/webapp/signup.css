@@ -1,0 +1,45 @@
+.signform{
+    background-color: lightseagreen;
+    height: 70vh;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.signupform{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signtable{
+    width: 90%;
+    height: -webkit-fill-available;
+}
+
+.entries{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: math;
+    color: chartreuse;
+    width: 40%;
+}
+
+.filldata{
+    border-radius: 25px;
+    border: 2px solid seagreen;
+    height: 35px;
+    width: 80%;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+#leftbutton{
+    margin-left: 80px;
+}
+
+#rightbutton{
+    margin-left: 90px;
+}
