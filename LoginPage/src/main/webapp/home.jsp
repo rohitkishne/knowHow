@@ -6,6 +6,16 @@
 <link rel="stylesheet" type="text/css" href="login.css">
 </head>
 <body>
+<%
+
+    response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+    response.setHeader("Pragma","no-cache");
+    response.setHeader("Expires","0");
+    if(session.getAttribute("username")==null)
+    {
+        response.sendRedirect("index.jsp");
+    }
+%>
 <header class="menu">
     <div class="left">
         <a href="index.jsp" class="active">
